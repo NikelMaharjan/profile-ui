@@ -43,9 +43,7 @@ class ProfilePage extends StatelessWidget {
     return const CircleAvatar(
       backgroundColor: Colors.grey,
       radius: 50,
-      backgroundImage:
-          NetworkImage('https://www.woolha.com/media/2020/03/eevee.png'),
-    );
+      backgroundImage: NetworkImage('https://www.woolha.com/media/2020/03/eevee.png'),);
   }
 
   Widget buildPhoneAndEmail(IconData icon, String text) {
